@@ -46,3 +46,4 @@ bcrypt==3.2.0
 cryptography==3.4.8
 PyJWT==2.10.1
 
+django-ratelimit==3.0.1
