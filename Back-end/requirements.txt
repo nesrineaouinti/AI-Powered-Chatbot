@@ -1,15 +1,27 @@
+# Django & REST Framework
 Django==5.2.6
 djangorestframework==3.16.1
 djangorestframework-simplejwt==5.5.1
 django-cors-headers==4.9.0
 django-environ==0.12.0
+
+# Deployment
 gunicorn==23.0.0
+whitenoise==6.9.0
+
+# Google OAuth
 google-auth==2.41.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.2
-psycopg2-binary==2.9.10
 requests==2.32.5
 requests-oauthlib==2.0.0
 python-dotenv==1.1.1
+
+# Database
+psycopg2-binary==2.9.10
+
+# Images / Media
 Pillow==9.0.1
-whitenoise==6.9.0
+
+# Optional: AI tools (if using OpenAI API)
+openai==1.63.2
