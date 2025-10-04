@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: chatbot-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r Back-end/requirements.txt
+    startCommand: gunicorn chatbot_backend.wsgi
+    pythonVersion: 3.10
