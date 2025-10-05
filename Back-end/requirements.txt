@@ -28,3 +28,6 @@ reportlab==3.6.8
 
 # ---- ASGI server (if using async/Daphne) ----
 daphne==3.0.2
+google-auth==2.41.0
+google-auth-oauthlib==1.2.2
+google-auth-httplib2==0.2.0
